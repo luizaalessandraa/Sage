@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sage, cuidados essenciais para pele, corpo e cabelo."
+    />
+    <title>Sage — Ritual de autocuidado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="barra-anuncio">Frete grátis para pedidos acima de R$ 199</div>
+
+    <nav class="navbar" aria-label="Navegação principal">
+      <a href="#" class="logo">sage</a>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#editorial">Essenciais</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#rotina">Ritual</a></li>
+      </ul>
+      <div class="acoes">
+        <button class="icone" aria-label="Abrir carrinho" id="abrir-carrinho">
+          <i data-lucide="shopping-bag" size="17"></i>
+          <span class="contador" id="contador">0</span>
+        </button>
+        <button class="icone menu-mobile" aria-label="Menu">
+          <i data-lucide="menu" size="19"></i>
+        </button>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <img
+        src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=85&w=2200&auto=format&fit=crop"
+        alt="Produtos de cuidados pessoais em uma composição natural"
+      />
+      <div class="hero-conteudo">
+        <div class="eyebrow">Skincare · Body · Hair</div>
+        <h1>sage</h1>
+        <div class="hero-base">
+          <p>
+            Cuidados essenciais para transformar o cotidiano em um ritual
+            simples, sensorial e consciente.
+          </p>
+          <a href="#catalogo" class="botao-claro"
+            >Explorar coleção <i data-lucide="arrow-up-right" size="14"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="manifesto" id="sobre">
+        <div class="container manifesto-grid">
+          <div>
+            <div class="rotulo">Nossa filosofia</div>
+            <h2>Menos excesso. Mais cuidado.</h2>
+          </div>
+          <div class="manifesto-direita">
+            <p>
+              A Sage nasceu de uma ideia simples: uma boa rotina não precisa ser
+              complicada. Criamos fórmulas pensadas para acompanhar a vida real,
+              com texturas agradáveis, ativos selecionados e uma estética
+              silenciosa.
+            </p>
+            <p>
+              O resultado é um ritual essencial, intuitivo e consistente, feito
+              para cuidar sem sobrecarregar.
+            </p>
+            <div class="linha-detalhe"></div>
+            <div class="numeros">
+              <div class="numero">
+                <strong>01</strong><span>Essencial</span>
+              </div>
+              <div class="numero">
+                <strong>02</strong><span>Consciente</span>
+              </div>
+              <div class="numero">
+                <strong>03</strong><span>Sensorial</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="editorial" id="editorial">
+        <div class="container editorial-grid">
+          <div class="imagem-grande">
+            <img
+              src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?q=85&w=1200&auto=format&fit=crop"
+              alt="Produtos Sage em composição minimalista"
+            />
+          </div>
+          <div class="editorial-lateral">
+            <a href="#catalogo" class="imagem-card">
+              <img
+                src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=85&w=1000&auto=format&fit=crop"
+                alt="Frascos de skincare"
+              />
+              <div class="card-legenda">
+                <div>
+                  <span>01 / Face</span>
+                  <h3>Skincare essencial</h3>
+                </div>
+                <i data-lucide="arrow-up-right" size="18"></i>
+              </div>
+            </a>
+            <a href="#catalogo" class="imagem-card">
+              <img
+                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=85&w=1000&auto=format&fit=crop"
+                alt="Cuidados para cabelo"
+              />
+              <div class="card-legenda">
+                <div>
+                  <span>02 / Hair</span>
+                  <h3>Corpo & cabelo</h3>
+                </div>
+                <i data-lucide="arrow-up-right" size="18"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalogo" id="catalogo">
+        <div class="container">
+          <div class="cabecalho-secao">
+            <div>
+              <div class="rotulo">A coleção</div>
+              <h2>Os essenciais<br />da Sage.</h2>
+            </div>
+            <p>
+              Uma seleção enxuta de produtos para construir uma rotina completa,
+              sem etapas desnecessárias.
+            </p>
+          </div>
+
+          <div class="produtos">
+            <article
+              class="produto"
+              data-nome="Daily Cleanser"
+              data-preco="89"
+              data-imagem="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=85&w=1000&auto=format&fit=crop"
+            >
+              <div class="produto-imagem">
+                <img
+                  src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=85&w=1000&auto=format&fit=crop"
+                  alt="Daily Cleanser"
+                />
+                <span class="etiqueta">Best seller</span>
+              </div>
+              <div class="produto-corpo">
+                <div class="produto-topo">
+                  <h3>Daily Cleanser</h3>
+                  <span class="preco">R$ 89</span>
+                </div>
+                <p>Limpeza suave para todos os dias.</p>
+                <div class="produto-rodape">
+                  <span class="categoria">Face · 150 ml</span
+                  ><button class="adicionar">Adicionar</button>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="produto"
+              data-nome="Soft Serum"
+              data-preco="129"
+              data-imagem="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=85&w=1000&auto=format&fit=crop"
+            >
+              <div class="produto-imagem">
+                <img
+                  src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=85&w=1000&auto=format&fit=crop"
+                  alt="Soft Serum"
+                />
+                <span class="etiqueta">Novo</span>
+              </div>
+              <div class="produto-corpo">
+                <div class="produto-topo">
+                  <h3>Soft Serum</h3>
+                  <span class="preco">R$ 129</span>
+                </div>
+                <p>Hidratação leve e acabamento confortável.</p>
+                <div class="produto-rodape">
+                  <span class="categoria">Face · 30 ml</span
+                  ><button class="adicionar">Adicionar</button>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="produto"
+              data-nome="Calm Cream"
+              data-preco="109"
+              data-imagem="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=85&w=1000&auto=format&fit=crop"
+            >
+              <div class="produto-imagem">
+                <img
+                  src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=85&w=1000&auto=format&fit=crop"
+                  alt="Calm Cream"
+                />
+              </div>
+              <div class="produto-corpo">
+                <div class="produto-topo">
+                  <h3>Calm Cream</h3>
+                  <span class="preco">R$ 109</span>
+                </div>
+                <p>Creme confortável para finalizar a rotina.</p>
+                <div class="produto-rodape">
+                  <span class="categoria">Face · 50 ml</span
+                  ><button class="adicionar">Adicionar</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faixa">
+        <div class="container faixa-conteudo">
+          <h2>Seu ritual,<br />do seu jeito.</h2>
+          <p>
+            Produtos que conversam entre si, sem transformar autocuidado em uma
+            lista interminável de etapas.
+          </p>
+        </div>
+      </section>
+
+      <section class="rotina" id="rotina">
+        <div class="container rotina-grid">
+          <div class="rotina-intro">
+            <div class="rotulo">Ritual Sage</div>
+            <h2>Uma rotina simples por design.</h2>
+          </div>
+          <div class="passos">
+            <div class="passo">
+              <span class="passo-num">01</span>
+              <div>
+                <h3>Limpar</h3>
+                <p>
+                  Comece com uma limpeza gentil para preparar a pele para os
+                  próximos passos.
+                </p>
+              </div>
+              <i data-lucide="plus" size="15"></i>
+            </div>
+            <div class="passo">
+              <span class="passo-num">02</span>
+              <div>
+                <h3>Tratar</h3>
+                <p>
+                  Escolha um sérum de acordo com o que sua pele precisa naquele
+                  momento.
+                </p>
+              </div>
+              <i data-lucide="plus" size="15"></i>
+            </div>
+            <div class="passo">
+              <span class="passo-num">03</span>
+              <div>
+                <h3>Hidratar</h3>
+                <p>
+                  Finalize com uma camada confortável para manter a hidratação e
+                  o equilíbrio.
+                </p>
+              </div>
+              <i data-lucide="plus" size="15"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container newsletter-grid">
+          <div>
+            <div class="rotulo">Journal Sage</div>
+            <h2>Ideias para uma rotina mais leve.</h2>
+          </div>
+          <div>
+            <p>
+              Receba novidades da coleção, conteúdos sobre autocuidado e
+              lançamentos diretamente no seu e-mail.
+            </p>
+            <form class="formulario" id="newsletter-form">
+              <input
+                type="email"
+                placeholder="Seu melhor e-mail"
+                aria-label="Seu melhor e-mail"
+                required
+              />
+              <button type="submit">Inscrever</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-logo">sage</div>
+          <div class="footer-col">
+            <h4>Explorar</h4>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#rotina">Ritual</a>
+          </div>
+          <div class="footer-col">
+            <h4>Atendimento</h4>
+            <a href="#">Contato</a>
+            <a href="#">Entrega</a>
+            <a href="#">Trocas</a>
+          </div>
+          <div class="footer-col">
+            <h4>Social</h4>
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">Journal</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Sage Skincare</span>
+          <span>Feito para cuidar do essencial</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="modal-carrinho" aria-hidden="true">
+      <aside
+        class="carrinho"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="titulo-carrinho"
+      >
+        <div class="carrinho-cabecalho">
+          <h2 id="titulo-carrinho">Seu carrinho</h2>
+          <button
+            class="fechar"
+            id="fechar-carrinho"
+            aria-label="Fechar carrinho"
+          >
+            <i data-lucide="x" size="18"></i>
+          </button>
+        </div>
+        <div class="carrinho-itens" id="itens-carrinho"></div>
+        <div class="carrinho-total">
+          <span>Total</span>
+          <strong id="total-carrinho">R$ 0</strong>
+        </div>
+        <button class="botao-escuro finalizar" id="finalizar">
+          Finalizar pedido
+        </button>
+      </aside>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
